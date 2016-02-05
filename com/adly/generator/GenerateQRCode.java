@@ -26,10 +26,8 @@ public class GenerateQRCode {
      */
     public static void main(String[] args) throws WriterException, IOException {
         String qrCodeText = "Lorem Ipsum is simply dummy text of the printing and typesetting"
-        		+ " industry. Lorem Ipsum has been the industry's stand dummy text of"
-        		+ " dummy text of the printing and typesetting dummy text of the printing and typesetting"
-        		+ " industry. Lorem Ipsum has been the industry's stand the printing and typesetting"
-        		+ " industry. Lorem Ipsum has been the industry's stand";
+        		+ " industry. Lorem Ipsum has been the industry's stand dummy text of";
+        		
         String filePath = "/Users/xiangao/Desktop/QR3.png";
         int size =0;
         String fileType = "png";
