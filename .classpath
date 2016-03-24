@@ -8,6 +8,6 @@
 	<classpathentry kind="lib" path="/Users/xiangao/git/QRCodeGenerater/commons-io-2.4-tests.jar"/>
 	<classpathentry kind="lib" path="/Users/xiangao/git/QRCodeGenerater/commons-io-2.4.jar"/>
 	<classpathentry kind="lib" path="/Users/xiangao/git/QRCodeGenerater/zxing-javase.jar"/>
-	<classpathentry kind="lib" path="/Users/xiangao/Documents/jcodec-0.1.6-3.jar"/>
+	<classpathentry kind="lib" path="/Users/xiangao/git/QRCodeGenerater/jcodec-0.1.6-3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

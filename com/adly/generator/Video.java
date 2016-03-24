@@ -16,7 +16,7 @@ public class Video {
 		final String fileSource="/Users/xiangao/Desktop/QR-code/Videos/demo.mp4";
 		try {
 			for(int i=10;i<101;i+=10){
-				cutVideo(fileSource,i);
+				getSingleFrame(fileSource,i);
 			}
 			
 		} catch (IOException | JCodecException e) {
@@ -25,7 +25,7 @@ public class Video {
 		}
 			
 	}
-	public static void cutVideo(String fileSource,int frameNumber) throws IOException, JCodecException{
+	public static void getSingleFrame(String fileSource,int frameNumber) throws IOException, JCodecException{
 		
 		BufferedImage frame = FrameGrab.getFrame(new File("/Users/xiangao/Desktop/QR-code/Videos/demo.mp4"), frameNumber);
 		ImageIO.write(frame, "png", new File("/Users/xiangao/Desktop/QR-code/FromVideo/"+frameNumber+".png"));
