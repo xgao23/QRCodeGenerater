@@ -53,15 +53,7 @@ public class ImageDetector {
 			}
 		
 			
-			
-			
-			
-			
-			
-			
-			
-			
-	
+
 		
 
 	}
